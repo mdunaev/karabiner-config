@@ -2,7 +2,7 @@
     "title": "Caps Lock + IJKL",
     "rules": [
         {
-            "description": "Caps Lock to Fn",
+            "description": "Caps Lock to None",
             "manipulators": [
                 {
                     "type": "basic",
@@ -16,7 +16,7 @@
                     },
                     "to": [
                         {
-                            "key_code": "fn"
+                            "key_code": "button20"
                         }
                     ]
                 }
@@ -31,7 +31,7 @@
                         "key_code": "i",
                         "modifiers": {
                             "mandatory": [
-                                "caps_lock"
+                                "button20"
                             ],
                             "optional": [
                                 "any"
@@ -50,7 +50,7 @@
                         "key_code": "j",
                         "modifiers": {
                             "mandatory": [
-                                "caps_lock"
+                                "button20"
                             ],
                             "optional": [
                                 "any"
@@ -69,7 +69,7 @@
                         "key_code": "k",
                         "modifiers": {
                             "mandatory": [
-                                "caps_lock"
+                                "button20"
                             ],
                             "optional": [
                                 "any"
@@ -88,7 +88,7 @@
                         "key_code": "l",
                         "modifiers": {
                             "mandatory": [
-                                "caps_lock"
+                                "button20"
                             ],
                             "optional": [
                                 "any"
@@ -112,7 +112,7 @@
                         "key_code": "h",
                         "modifiers": {
                             "mandatory": [
-                                "caps_lock"
+                                "button20"
                             ],
                             "optional": [
                                 "any"
